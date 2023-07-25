@@ -1,0 +1,7 @@
+class MainProgram
+{
+public static void main (string [] args)
+{
+Addition addition = new Addition();
+addition.add();
+
