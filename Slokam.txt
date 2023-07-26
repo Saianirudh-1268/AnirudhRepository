@@ -1,16 +1,93 @@
-Sri rama rama raamethi
-rame raame manorame 
-sahasra nama tattuyyam 
-rama nama varanane
+package com.qualizeal.operation;
+public class Program {
+	public void ganesh(int z) {
+		for(int i=0;i<z;i++) {
+			System.out.println("|| గురు భ్రహ్మ గురు విష్ణు ||");
+			System.out.println("|| గురు దెవొ మహేశ్వర ||");
+		    System.out.println("|| గురు సాక్షాత్ పరభ్రహ్మ ||");
+			System.out.println("|| తస్మేశ్రీ గురువే నమః ||");
+		}
+	}
+	public void ram(int x) {
+		if(x>=1000) {
+			for(int i=0;i<x;i++) {
+				System.out.println("|| హరే రామ హరే రామ రామ రామ హరే హరే ||");
+			}
+		}else {
+			for(int i=0;i<x;i++) {
+				System.out.println("|| శ్రీ రామ రామ రామేతి ||");
+				System.out.println("|| రమే రామే మనోరమే ||");
+				System.out.println("|| సహస్ర నామ తత్తుయ్యం ||");
+				System.out.println("|| రామ నామ వరాననే ||");
+			}
+		}
+	}
+	public void vishnu(int d) {
+		System.out.println("|| శాంతాకారం భుజగశయనం పద్మనాభం సురేశం ||");
+		System.out.println("|| విశ్వధారం గగన సదృశం మేఘవర్ణం శుభాంగం ||");
+		System.out.println("|| లక్ష్మికాంతం కమలనయణం యోగి రుధ్యాన గమ్యం ||");
+		System.out.println("|| వందే విష్ణుం భవభయ హరం సర్వ లోకైక నాదం ||");
+	}
+	public void lakshmi(int e) {
+		System.out.println("|| లక్ష్మీం క్షీర సముద్ర రాజ తనయాం శ్రీరంగ ధామేశ్వరీం ||");
+		System.out.println("|| దాసీ భూత సమస్త దేవ వనితాం లోకైక దీపాంకురాం ||");
+		System.out.println("|| శ్రీ మన్మంద కటాక్ష లబ్ధ విభవత్ బ్రహ్మేంద్ర గంగాధరాం ||");
+		System.out.println("|| త్వాం త్రైలోక్య కుటుంబినీం సరసిజాం వందే ముకుంద ప్రియామ్ ||");
+		
+	}
+	public void surya(int f) {
+		System.out.println("|| జప కుసుమ సంకాశం ||");
+		System.out.println("|| కాశ్యపేయం మహాద్వితుం ||");
+		System.out.println("|| తమోరియం సర్వ పాపజ్ఞమ్ ||");
+		System.out.println("|| ప్రణతోశ్మీ దివాకరం ||");
+	}
+	public void sai(int y) {
+		for(int i=0;i<y;i++) {
+			System.out.println("|| ఓం సాయి శ్రీ సాయి జయ జయ సాయి ||");
+		}
+	}
+	public void shiva(int b) {
+		for(int i=0;i<b;i++) {
+			System.out.println("|| హర హర మహా దేవ శంభో శంకర ||");
+		}
+	}
+	public void hanuman(int a) {
+		for(int i=0;i<a;i++) {
+			System.out.println("|| జై శ్రీ ఆంజనేయం ||");
+		}
+	}
+	public void krishna(int c) {
+		for(int i=0;i<c;i++) {
+			System.out.println("|| హరే కృష్ణ హరే కృష్ణ కృష్ణ కృష్ణ హరే హరే ||");
+		}
+	}
+}   
 
-om sai sri sai jaya jaya sai
-
-hare rama hare rama rama rama har hare
-
-hare krishna hare krishna krishna krishna hare hare
-
-japaa kusuma sankasam 
-kasya peyam mahadithum
-tamoriyam sarva papagnyam
-prana thosmi dhivakaram
-
+package com.qualizeal.practise;
+import com.qualizeal.operation.Program;
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	Program program = new Program();
+    	
+    	program.ram(10000000);
+    	System.out.println("----------------------------------------------------------------");
+    	program.ganesh(1);
+    	System.out.println("----------------------------------------------------------------");
+    	program.sai(100);
+    	System.out.println("----------------------------------------------------------------");
+    	program.shiva(1);
+    	System.out.println("----------------------------------------------------------------");
+    	program.hanuman(1);
+    	System.out.println("----------------------------------------------------------------");
+    	program.krishna(1);
+    	System.out.println("----------------------------------------------------------------");
+    	program.vishnu(1);
+    	System.out.println("----------------------------------------------------------------");
+    	program.lakshmi(1);
+    	System.out.println("----------------------------------------------------------------");
+    	program.surya(1);
+    	
+    }
+}
